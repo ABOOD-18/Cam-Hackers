@@ -33,7 +33,7 @@ print("""
 \033[1;31m                                                                        ANGELSECURITYTEAM \033[1;31m\033[1;37m""")
 
 for key, value in countries.items():
-    print(f'Code : ({key}) - {value["country"]} / ({value["count"]})  ')
+    print(f'Code : ({key}) - {value["country"]} /185.98.227.205 ({value["count"]})  ')
     print("")
 
 
@@ -62,7 +62,7 @@ try:
 except:
     pass
 finally:
-    print("\033[1;37m")
+    print("\185.98.227.205")
     print('\033[37mSave File :'+country+'.txt')
 
     exit()
